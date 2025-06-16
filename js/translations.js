@@ -26,7 +26,7 @@ const translations = {
             },
             sensorApi: {
                 title: "Sensor API Generator",
-                description: "Ce projet permet de générer de la fausse données pour le projet Food Tracking DE/ML et de la transmettre par API\n• API FastAPI pour la génération de données IoT\n• Containerisation Docker et déploiement cloud\n• Documentation OpenAPI et tests automatisés\n• Simulation en temps réel d'environnements IoT\n• Interface REST pour la configuration des capteurs\n• Monitoring des performances et des métriques"
+                description: "• Ce projet permet de générer de la fausse données pour le projet Food Tracking DE/ML et de la transmettre par API\n• API FastAPI pour la génération de données IoT\n• Containerisation Docker et déploiement cloud\n• Documentation OpenAPI et tests automatisés\n• Simulation en temps réel d'environnements IoT\n• Interface REST pour la configuration des capteurs\n• Monitoring des performances et des métriques"
             },
             aiFood: {
                 title: "AI Food & Activity Tracker",
@@ -122,7 +122,7 @@ const translations = {
             },
             sensorApi: {
                 title: "Sensor API Generator",
-                description: "This project allows to generate fake data for the Food Tracking DE/ML project and to send it by API\n• FastAPI API for IoT data generation\n• Docker containerization and cloud deployment\n• OpenAPI documentation and automated testing\n• Real-time IoT environment simulation\n• REST interface for sensor configuration\n• Performance and metrics monitoring"
+                description: "• This project allows to generate fake data for the Food Tracking DE/ML project and to send it by API\n• FastAPI API for IoT data generation\n• Docker containerization and cloud deployment\n• OpenAPI documentation and automated testing\n• Real-time IoT environment simulation\n• REST interface for sensor configuration\n• Performance and metrics monitoring"
             },
             aiFood: {
                 title: "AI Food & Activity Tracker",
