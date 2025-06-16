@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gueguen Yann - Portfolio</title>
+    <link rel="icon" type="image/png" href="resources/images/logo.png"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/home.css"/>
+    <link rel="stylesheet" href="css/about.css"/>
+    <link rel="stylesheet" href="css/projects.css"/>
+    <link rel="stylesheet" href="css/skills.css"/>
+    <link rel="stylesheet" href="css/experience.css"/>
+    <link rel="stylesheet" href="css/contact.css"/>
+    <link rel="stylesheet" href="css/skills.css"/>
+</head>
+<body>
+    <div id="header_div">
+        <header id="header">
+            <nav class="nav">
+                <div class="logo">
+                    <a class="in_animation in_animation_fast" href="#">
+                        <img src="resources/images/logo.png" alt="logo"/>
+                    </a>
+                </div>
+                <div class="language-selector">
+                    <img id="fr-flag" src="resources/icon/Flag_of_France.svg" alt="FR" onclick="setLanguage('fr')" class="flag-icon"/>
+                    <img id="en-flag" src="resources/icon/Flag_of_the_United_Kingdom.svg" alt="EN" onclick="setLanguage('en')" class="flag-icon"/>
+                </div>
+                <div class="menu">
+                    <ol>
+                        <li class="home in_animation"><a href="#home_section" data-i18n="nav.home"></a></li>
+                        <li class="about in_animation"><a href="#about_section" data-i18n="nav.about"></a></li>
+                        <li class="projects in_animation"><a href="#projects_section" data-i18n="nav.projects"></a></li>
+                        <li class="skills in_animation"><a href="#skills_section" data-i18n="nav.skills"></a></li>
+                        <li class="experience in_animation"><a href="#experience_section" data-i18n="nav.experience"></a></li>
+                        <li class="contact in_animation">
+                            <a class="button" href="#contact_section" data-i18n="nav.contact"></a>
+                        </li>
+                    </ol>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <main id="main">
+        <section id="home_section" class="section">
+            <div class="content">
+                <span class="hi in_animation" data-i18n="home.greeting"></span>
+                <span class="name in_animation" data-i18n="home.name"></span>
+                <span class="title in_animation" data-i18n="home.title"></span>
+                <p class="bio in_animation" data-i18n="home.bio"></p>
+            </div>
+        </section>
+
+        <section id="about_section" class="section">
+            <div class="content">
+                <h2 class="section_title" data-i18n="about.title"></h2>
+                <div class="about_content">
+                    <h1 data-i18n="about.name"></h1>
+                    <h3 data-i18n="about.title"></h3>
+                    <p data-i18n="about.content"></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects_section" class="section">
+            <div class="content">
+                <h2 class="section_title" data-i18n="projects.title"></h2>
+                <div class="projects_content">
+                    <div class="project-card">
+                        <div class="project-image-container">
+                            <img src="resources/project/food_tracking.png" alt="Food Tracking Project" class="project-image"/>
+                        </div>
+                        <div class="project-content">
+                            <h3 data-i18n="projects.foodTracking.title"></h3>
+                            <p data-i18n="projects.foodTracking.description"></p>
+                            <div class="tech-stack">
+                                <span class="badge">Python</span>
+                                <span class="badge">DuckDB</span>
+                                <span class="badge">Airflow</span>
+                                <span class="badge">AWS S3</span>
+                                <span class="badge">Streamlit</span>
+                                <span class="badge">Docker</span>
+                            </div>
+                            <a href="https://github.com/YGueguen16u/food-tracking-DE-ML-project" target="_blank" class="project-link">
+                                <img src="resources/icon/github.svg" alt="GitHub"/>
+                                <span data-i18n="projects.viewOnGithub"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image-container">
+                            <img src="resources/project/api-food-tracking.png" alt="Sensor API Project" class="project-image"/>
+                        </div>
+                        <div class="project-content">
+                            <h3 data-i18n="projects.sensorApi.title"></h3>
+                            <p data-i18n="projects.sensorApi.description"></p>
+                            <div class="tech-stack">
+                                <span class="badge">Python</span>
+                                <span class="badge">FastAPI</span>
+                                <span class="badge">Docker</span>
+                            </div>
+                            <a href="https://github.com/YGueguen16u/sensor_api" target="_blank" class="project-link">
+                                <img src="resources/icon/github.svg" alt="GitHub"/>
+                                <span data-i18n="projects.viewOnGithub"></span>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div class="project-card">
+                        <div class="project-image-container">
+                            <img src="resources/project/ai-food-tracker.png" alt="AI Food Tracker" class="project-image"/>
+                        </div>
+                        <div class="project-content">
+                            <h3 data-i18n="projects.aiFood.title"></h3>
+                            <p data-i18n="projects.aiFood.description"></p>
+                            <div class="tech-stack">
+                                <span class="badge">FastAPI</span>
+                                <span class="badge">React</span>
+                                <span class="badge">AWS</span>
+                                <span class="badge">LLM</span>
+                                <span class="badge">Docker</span>
+                            </div>
+                            <a href="https://github.com/YGueguen16u/dsti-ml-final-project" target="_blank" class="project-link">
+                                <img src="resources/icon/github.svg" alt="GitHub"/>
+                                <span data-i18n="projects.viewOnGithub"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image-container">
+                            <img src="resources/project/off-database.png" alt="OpenFoodFacts Database Creator" class="project-image"/>
+                        </div>
+                        <div class="project-content">
+                            <h3 data-i18n="projects.offDatabase.title"></h3>
+                            <p data-i18n="projects.offDatabase.description"></p>
+                            <div class="tech-stack">
+                                <span class="badge">Python</span>
+                                <span class="badge">AWS S3</span>
+                                <span class="badge">BeautifulSoup</span>
+                                <span class="badge">API</span>
+                            </div>
+                            <a href="https://github.com/YGueguen16u/database-creator" target="_blank" class="project-link">
+                                <img src="resources/icon/github.svg" alt="GitHub"/>
+                                <span data-i18n="projects.viewOnGithub"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills_section" class="section">
+            <div class="content">
+                <h2 class="section_title" data-i18n="skills.title"></h2>
+                <div class="skills_grid">
+                    <div class="skills-category">
+                        <h3>Data Engineering</h3>
+                        <div class="skills-list">
+                            <span class="skill-item">Python</span>
+                            <span class="skill-item">SQL</span>
+                            <span class="skill-item">PySpark</span>
+                            <span class="skill-item">Apache Airflow</span>
+                            <span class="skill-item">MongoDB</span>
+                            <span class="skill-item">Neo4j</span>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3>Data Science & IA</h3>
+                        <div class="skills-list">
+                            <span class="skill-item">TensorFlow</span>
+                            <span class="skill-item">PyTorch</span>
+                            <span class="skill-item">Machine Learning</span>
+                            <span class="skill-item">Deep Learning</span>
+                            <span class="skill-item">Data Analysis</span>
+                            <span class="skill-item">Data Visualization</span>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3>Cloud & Big Data</h3>
+                        <div class="skills-list">
+                            <span class="skill-item">AWS</span>
+                            <span class="skill-item">Databricks</span>
+                            <span class="skill-item">Apache Spark</span>
+                            <span class="skill-item">Hadoop</span>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3>DevOps</h3>
+                        <div class="skills-list">
+                            <span class="skill-item">Docker</span>
+                            <span class="skill-item">CI/CD</span>
+                            <span class="skill-item">GitHub Actions</span>
+                            <span class="skill-item">Linux</span>
+                            <span class="skill-item">Shell/Bash</span>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3>Développement Web</h3>
+                        <div class="skills-list">
+                            <span class="skill-item">JavaScript</span>
+                            <span class="skill-item">HTML</span>
+                            <span class="skill-item">CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience_section" class="section">
+            <div class="content">
+                <h2 class="section_title" data-i18n="experience.title"></h2>
+                <div class="experience_content">
+                    <div class="experience-section">
+                        <h2 data-i18n="experience.education.title"></h2>
+                        <div class="experience-card">
+                            <div class="period" data-i18n="experience.education.items.0.period"></div>
+                            <h3 data-i18n="experience.education.items.0.title"></h3>
+                            <div class="company" data-i18n="experience.education.items.0.institution"></div>
+                        </div>
+                        <div class="experience-card">
+                            <div class="period" data-i18n="experience.education.items.1.period"></div>
+                            <h3 data-i18n="experience.education.items.1.title"></h3>
+                            <div class="company" data-i18n="experience.education.items.1.institution"></div>
+                            <div class="description" data-i18n="experience.education.items.1.description"></div>
+                        </div>
+                        <div class="experience-card">
+                            <div class="period" data-i18n="experience.education.items.2.period"></div>
+                            <h3 data-i18n="experience.education.items.2.title"></h3>
+                            <div class="company" data-i18n="experience.education.items.2.institution"></div>
+                        </div>
+                    </div>
+                    <div class="experience-section">
+                        <h2 data-i18n="experience.professional.title"></h2>
+                        <div class="experience-card">
+                            <div class="period" data-i18n="experience.professional.items.0.period"></div>
+                            <h3 data-i18n="experience.professional.items.0.title"></h3>
+                            <div class="company" data-i18n="experience.professional.items.0.company"></div>
+                            <div class="description" data-i18n="experience.professional.items.0.description"></div>
+                        </div>
+                        <div class="experience-card">
+                            <div class="period" data-i18n="experience.professional.items.1.period"></div>
+                            <h3 data-i18n="experience.professional.items.1.title"></h3>
+                            <div class="company" data-i18n="experience.professional.items.1.company"></div>
+                            <div class="description" data-i18n="experience.professional.items.1.description"></div>
+                        </div>
+                        <div class="experience-card">
+                            <div class="period" data-i18n="experience.professional.items.2.period"></div>
+                            <h3 data-i18n="experience.professional.items.2.title"></h3>
+                            <div class="company" data-i18n="experience.professional.items.2.company"></div>
+                            <div class="description" data-i18n="experience.professional.items.2.description"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact_section" class="section">
+            <div class="content">
+                <h2 class="section_title" data-i18n="contact.title"></h2>
+                <div class="contact_content">
+                    <div class="social_links">
+                        <a href="https://github.com/YGueguen16u" target="_blank" class="social_link">
+                            <img src="resources/icon/github.svg" alt="GitHub"/>
+                            <span data-i18n="contact.github"></span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/yanngueguen1/" target="_blank" class="social_link">
+                            <img src="resources/icon/linkedin-icon.svg" alt="LinkedIn"/>
+                            <span data-i18n="contact.linkedin"></span>
+                        </a>
+                        <a href="mailto:yann.gueguen.ad@gmail.com" class="social_link">
+                            <img src="resources/icon/Gmail.svg" alt="Email"/>
+                            <span data-i18n="contact.email"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/translations.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

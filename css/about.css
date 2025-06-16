@@ -1,0 +1,11 @@
+.about_content {
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+}
+
+.about_content p {
+    white-space: pre-line;
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+}
