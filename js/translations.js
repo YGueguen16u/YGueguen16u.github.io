@@ -6,7 +6,9 @@ const translations = {
             projects: "Projets",
             skills: "Compétences",
             experience: "Expériences & Études",
-            contact: "Contact"
+            contact: "Contact",
+            resumeFr: "CV FR",
+            resumeEn: "CV EN"
         },
         home: {
             greeting: "Bonjour !",
@@ -16,7 +18,7 @@ const translations = {
         },
         about: {
             title: "À Propos",
-            content: "Après mon diplôme d'ingénieur et une expérience d'un an chez EDF, j'ai complété une formation spécialisée en Data Engineering et Data Science en alternance chez Thales Alenia Space.\nCette expérience m'a permis de maîtriser l'automatisation des processus et le développement de pipelines ETL dans un contexte industriel exigeant.\nÀ travers mes projets personnels et académiques, j'ai élargi mes compétences vers le Cloud Computing et les pratiques DevOps, me permettant de concevoir des solutions data complètes et scalables.\nJe m'appuie sur les technologies cloud pour optimiser les ressources (stockage, VM, conteneurs) et sur les méthodologies DevOps (CI/CD, tests automatisés, déploiement continu) pour garantir une meilleure qualité des projets."        },
+            content: "Après mon diplôme d'ingénieur et une expérience d'un an chez EDF en tant qu'ingénieur d'études sur les programmes de maintenance, j'ai ensuite complété une formation spécialisée en Data Engineering et Data Science en alternance chez Thales Alenia Space.\n\nCette expérience m'a permis de maîtriser l'automatisation des processus et le développement de pipelines ETL dans un contexte industriel exigeant.\n\nÀ travers mes projets personnels et académiques, j'ai élargi mes compétences vers le Cloud Computing et les pratiques DevOps, me permettant de concevoir des solutions data complètes et scalables.\n\nJe m'appuie sur les technologies cloud pour optimiser les ressources (stockage, VM, conteneurs) et sur les méthodologies DevOps (CI/CD, tests automatisés, déploiement continu) pour garantir une meilleure qualité des projets."        },
         projects: {
             title: "Mes Projets",
             viewOnGithub: "Voir sur GitHub",
@@ -48,13 +50,14 @@ const translations = {
                     {
                         period: "2023 - 2025",
                         title: "Master Data Science",
-                        institution: "DSTI"
+                        institution: "DSTI",
+                        description: "Spécialisation en Data Engineering et Machine Learning"
                     },
                     {
                         period: "2018 - 2021",
                         title: "Diplôme d'Ingénieur - Filière SINERGIE",
                         institution: "ENSEM Nancy",
-                        description: "Spécialisation en informatique et sûreté"
+                        description: "Spécialisation en Systèmes Numériques et Génie Industriel"
                     },
                     {
                         period: "2016 - 2018",
@@ -64,25 +67,25 @@ const translations = {
                 ]
             },
             professional: {
-                title: "Expérience Professionnelle",
+                title: "Expériences Professionnelles",
                 items: [
                     {
                         period: "2023 - 2025",
                         title: "Data Engineer en Alternance",
                         company: "Thales Alenia Space, Cannes",
-                        description: "Automatisation du traitement des données de tests"
+                        description: "• Conception de pipelines ETL pour exploiter les données de tests SADM (Solar Array Drive Mechanisms) et SA (Solar Arrays)\n• Optimisation des traitements : concaténation de tables, moyennes mobiles, application de seuils techniques\n• Amélioration de la qualité des données via NLP, algorithmes de similarité et Regex pour détecter et corriger les erreurs de saisie\n• Développement d'une interface avec FastAPI pour automatiser l'envoi vers Dataiku et l'exécution des scripts batch\n• Intégration automatique des CSV dans Power BI via l'API Dataiku pour une visualisation fluide\n• Réduction drastique du temps de traitement (de plusieurs jours à quelques heures) grâce à l'automatisation complète du pipeline"
                     },
                     {
                         period: "2022",
-                        title: "Data Engineer",
+                        title: "Ingénieur d'études des programmes de maintenance",
                         company: "EDF Cap Ampère, Saint-Denis",
-                        description: "Contrôle des programmes de maintenance dans les CNPE"
+                        description: "• Supervision des Programmes de Maintenance Préventive (PBMP) et des contrôles techniques (ASG, SEC, LHP-LHQ, assemblages boulonnés)\n• Exploitation des données historiques via requêtes SQL\n• Analyse des inspections et reporting des tendances sous Power BI pour optimiser la planification des interventions"
                     },
                     {
                         period: "2021",
                         title: "Stage Ingénieur",
                         company: "EDF CNPE de Chinon",
-                        description: "Optimisation des programmes de maintenance"
+                        description: "• Optimisation des programmes de maintenance\n• Analyse des données de maintenance préventive\n"
                     }
                 ]
             }
@@ -101,7 +104,9 @@ const translations = {
             projects: "Projects",
             skills: "Skills",
             experience: "Experience & Education",
-            contact: "Contact"
+            contact: "Contact",
+            resumeFr: "CV FR",
+            resumeEn: "CV EN"
         },
         home: {
             greeting: "Hello!",
@@ -111,7 +116,7 @@ const translations = {
         },
         about: {
             title: "About",
-            content: "After my engineering degree and one year of experience at EDF, I completed a specialized training in Data Engineering and Data Science through an apprenticeship at Thales Alenia Space.\nThis experience allowed me to master process automation and ETL pipeline development in a demanding industrial context.\nThrough personal and academic projects, I expanded my expertise in Cloud Computing and DevOps practices, enabling me to design comprehensive and scalable data solutions.\nI leverage cloud technologies to optimize resources (storage, VMs, containers) and DevOps methodologies (CI/CD, automated testing, continuous deployment) to ensure better project quality."
+            content: "After my engineering degree and one year of experience at EDF as an engineer on maintenance programs, I completed a specialized training in Data Engineering and Data Science through an apprenticeship at Thales Alenia Space.\n\nThis experience allowed me to master process automation and ETL pipeline development in a demanding industrial context.\n\nThrough personal and academic projects, I expanded my expertise in Cloud Computing and DevOps practices, enabling me to design comprehensive and scalable data solutions.\n\nI leverage cloud technologies to optimize resources (storage, VMs, containers) and DevOps methodologies (CI/CD, automated testing, continuous deployment) to ensure better project quality."
         },
         projects: {
             title: "My Projects",
@@ -134,27 +139,7 @@ const translations = {
             }
         },
         skills: {
-            title: "Skills",
-            dataEngineering: {
-                title: "Data Engineering",
-                items: ["Python", "SQL", "PySpark", "Apache Airflow", "MongoDB", "Neo4j"]
-            },
-            dataScience: {
-                title: "Data Science & AI",
-                items: ["TensorFlow", "PyTorch", "Machine Learning", "Deep Learning", "Data Analysis", "Data Visualization"]
-            },
-            cloudBigData: {
-                title: "Cloud & Big Data",
-                items: ["AWS", "Databricks", "Apache Spark", "Hadoop"]
-            },
-            devops: {
-                title: "DevOps",
-                items: ["Docker", "CI/CD", "GitHub Actions", "Linux", "Shell/Bash"]
-            },
-            webDev: {
-                title: "Web Development",
-                items: ["JavaScript", "HTML", "CSS"]
-            }
+            title: "Skills"
         },
         experience: {
             title: "Experience & Education",
@@ -163,14 +148,15 @@ const translations = {
                 items: [
                     {
                         period: "2023 - 2025",
-                        title: "Master's in Data Science",
-                        institution: "DSTI"
+                        title: "Master Data Science",
+                        institution: "DSTI",
+                        description: "Specialization in Data Engineering and Machine Learning"
                     },
                     {
                         period: "2018 - 2021",
                         title: "Engineering Degree - SINERGIE Program",
                         institution: "ENSEM Nancy",
-                        description: "Specialization in computer science and safety"
+                        description: "Specialization in Digital Systems and Industrial Engineering"
                     },
                     {
                         period: "2016 - 2018",
@@ -186,19 +172,19 @@ const translations = {
                         period: "2023 - 2025",
                         title: "Data Engineer Apprentice",
                         company: "Thales Alenia Space, Cannes",
-                        description: "Automation of test data processing"
+                        description: "• Designed and deployed ETL pipelines for test data from SADM (Solar Array Drive Mechanisms) and SA (Solar Arrays)\n• Optimised data processing: table concatenation, moving average smoothing, and threshold filtering\n• Enhanced data quality using NLP, similarity algorithms, and Regex to detect and correct input errors\n• Built a FastAPI interface to automate file uploads to Dataiku and batch script execution\n• Automated CSV ingestion into Power BI using the Dataiku API for real-time dashboard updates\n• Reduced overall processing time (from several days to a few hours) through full pipeline automation"
                     },
                     {
                         period: "2022",
-                        title: "Data Engineer",
+                        title: "Maintenance Programme Engineer",
                         company: "EDF Cap Ampère, Saint-Denis",
-                        description: "Control of maintenance programs in nuclear power plants"
+                        description: "• Oversaw Preventive Maintenance Programmes (PBMP) and technical inspections (ASG, SEC, LHP-LHQ, bolted assemblies)\n• Used historical data analysis with SQL queries\n• Analysed inspection data and created trend reports in Power BI to improve maintenance planning"
                     },
                     {
                         period: "2021",
                         title: "Engineering Intern",
                         company: "EDF CNPE de Chinon",
-                        description: "Optimization of maintenance programs"
+                        description: "• Optimized maintenance programs\n• Analyzed preventive maintenance data\n"
                     }
                 ]
             }
