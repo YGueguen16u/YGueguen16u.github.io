@@ -8,7 +8,7 @@ const translations = {
             experience: "Expériences & Études",
             contact: "Contact",
             resumeFr: "CV FR",
-            resumeEn: "CV EN"
+            resumeEn: "Resume EN"
         },
         home: {
             greeting: "Bonjour !",
@@ -32,11 +32,11 @@ const translations = {
             },
             aiFood: {
                 title: "AI Food & Activity Tracker",
-                description: "• Application SaaS complète de suivi alimentaire et d'activité physique\n• Assistant IA intégré (Mixtral-8x7B fine-tuné avec QLoRA)\n• Backend FastAPI avec PostgreSQL sur AWS RDS\n• Frontend React avec interface conversationnelle\n• Recherche de produits via AWS S3 (base OpenFoodFacts)\n• CI/CD avec GitHub Actions et déploiement Docker\n• Architecture cloud complète (AWS S3, RDS, Render)\n• Système de logs quotidiens personnalisés par utilisateur"
+                description: "• Application SaaS complète de suivi alimentaire et d'activité physique\n• Assistant IA intégré (Mixtral-8x7B fine-tuné avec QLoRA)\n• Backend FastAPI avec PostgreSQL sur AWS RDS\n• Frontend React avec interface conversationnelle\n• Recherche de produits via AWS S3 (base OpenFoodFacts)\n• CI/CD avec GitHub Actions et déploiement Docker\n• Architecture cloud complète (AWS S3, RDS, Render)"
             },
             offDatabase: {
                 title: "OpenFoodFacts Database Creator",
-                description: "• Scraping intelligent de la base OpenFoodFacts\n• Classification automatique des codes-barres (EAN-8/13)\n• Extraction détaillée des données nutritionnelles\n• Gestion des erreurs et validation des données\n• Upload automatisé vers AWS S3\n• Système de reprise sur erreur et checkpoints\n• Base de données utilisée par AI Food & Activity Tracker"
+                description: "• Scraping de la base OpenFoodFacts\n• Classification automatique des codes-barres (EAN-8/13)\n• Extraction détaillée des données nutritionnelles\n• Gestion des erreurs et validation des données\n• Upload automatisé vers AWS S3\n• Système de reprise sur erreur et checkpoints\n• Base de données utilisée par AI Food & Activity Tracker"
             }
         },
         skills: {
@@ -105,8 +105,8 @@ const translations = {
             skills: "Skills",
             experience: "Experience & Education",
             contact: "Contact",
-            resumeFr: "CV FR",
-            resumeEn: "CV EN"
+            resumeFr: "Resume FR",
+            resumeEn: "Resume EN"
         },
         home: {
             greeting: "Hello!",
@@ -131,11 +131,11 @@ const translations = {
             },
             aiFood: {
                 title: "AI Food & Activity Tracker",
-                description: "• Complete SaaS application for food and physical activity tracking\n• Integrated AI assistant (Mixtral-8x7B fine-tuned with QLoRA)\n• FastAPI backend with PostgreSQL on AWS RDS\n• React frontend with conversational interface\n• Product search via AWS S3 (OpenFoodFacts database)\n• CI/CD with GitHub Actions and Docker deployment\n• Full cloud architecture (AWS S3, RDS, Render)\n• User-specific daily logging system"
+                description: "• Complete SaaS application for food and physical activity tracking\n• Integrated AI assistant (Mixtral-8x7B fine-tuned with QLoRA)\n• FastAPI backend with PostgreSQL on AWS RDS\n• React frontend with conversational interface\n• Product search via AWS S3 (OpenFoodFacts database)\n• CI/CD with GitHub Actions and Docker deployment\n• Full cloud architecture (AWS S3, RDS, Render)"
             },
             offDatabase: {
                 title: "OpenFoodFacts Database Creator",
-                description: "• Smart scraping of OpenFoodFacts database\n• Automatic barcode classification (EAN-8/13)\n• Detailed nutritional data extraction\n• Error handling and data validation\n• Automated upload to AWS S3\n• Error recovery and checkpoint system\n• Database used by AI Food & Activity Tracker"
+                description: "• Scraping of OpenFoodFacts database\n• Automatic barcode classification (EAN-8/13)\n• Detailed nutritional data extraction\n• Error handling and data validation\n• Automated upload to AWS S3\n• Error recovery and checkpoint system\n• Database used by AI Food & Activity Tracker"
             }
         },
         skills: {
